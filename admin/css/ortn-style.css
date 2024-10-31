@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ortn-section{
+    width: 1080px;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+}
+
+p.description {
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-align: justify;
+}
+
+.ortn-shortcode code {
+	font-size: 20px;
+	color: #f5951d;
+}
+
+
+
+
+/* form style */
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+option {
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+/* right side image style */
+.image-container img {
+    max-width: 60%;
+    border-radius: 8px;
+}

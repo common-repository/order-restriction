@@ -1,0 +1,35 @@
+.ortn-message-warning {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 3.5em;
+	padding-right: 2em;
+	background: #000;
+	padding-left: 17px;
+	margin: 10px 0px;
+	border-top: 2px solid yellow;
+	color: yellow;
+}
+
+.ortn-message-danger {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background: #eee;
+	padding-left: 1.5em;
+	padding-right: 2em;
+	margin: 10px 0px;
+	border-top: 2px solid red;
+	color: red;
+}
+
+.orth-default-message {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1.5em;
+	padding-right: 2em;
+	margin: 10px 0px;
+	border-top: 2px solid var(--ast-global-color-0);
+	color: var(--ast-global-color-0);
+	background-color: #f7f6f7;
+}
+
+
